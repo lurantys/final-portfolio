@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 11%; /* Deep slate dark background */
+    --foreground: 210 40% 98%; /* Light text color */
+
+    --card: 217 33% 17%; /* Dark card background */
+    --card-foreground: 210 40% 98%;
+
+    --primary: 217 91% 60%; /* Electric blue accent */
+    --primary-foreground: 210 40% 98%;
+
+    /* Other theme-specific color variables */
+    --secondary: 217 32% 17%;
+    --muted: 217 32% 17%;
+    --accent: 217 32% 17%;
+    --border: 217 32% 18%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-slate-900 text-slate-200 font-inter antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-manrope lowercase font-extrabold text-white;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-slate-800/90 backdrop-blur-sm shadow-lg border border-slate-700/50 rounded-2xl;
+  }
+}
