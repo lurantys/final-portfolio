@@ -14,10 +14,10 @@ const Hero = () => {
       >
         <div className="max-w-5xl mx-auto"> {/* Removed flex and centering from this div */}
           <h1 className="text-5xl md:text-7xl font-bold font-manrope lowercase text-slate-200 mb-4">
-            hi, i'm <span className="text-blue-500">aymen nhaila</span>
+            hi, i'm <span className="text-blue-500">aymen.</span>
           </h1>
           <p className="text-slate-300/70 max-w-2xl mx-auto">
-            i'm a software engineer passionate about building things with code.
+            i'm a cs student who's curious about everything. ESPECIALLY pokemon.
           </p>
           <img
             src="/barry.gif"
