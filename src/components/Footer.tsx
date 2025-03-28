@@ -27,7 +27,7 @@ const Footer = () => {
             className="text-sm text-slate-400 italic"
           >
             <PokemonEasterEgg>
-              (Yes, I name all my servers after Pokémon.)
+              (Yes, I name all my cats after Pokémon.)
             </PokemonEasterEgg>
           </motion.div>
           
