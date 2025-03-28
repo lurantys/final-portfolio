@@ -29,7 +29,7 @@ const SocialLinks = ({ compact = false }: SocialLinksProps) => {
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/aymen-nhaila",
+      url: "https://www.linkedin.com/in/aymen-nhaila-9ab6b5319/",
       icon: Linkedin,
       color: "hover:bg-[#0077B5]",
     },
